@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7675acf-c1b8-4731-80d7-e7b1b8619bc1" name="Changes" comment="" />
+    <list default="true" id="d7675acf-c1b8-4731-80d7-e7b1b8619bc1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_loja/out/production/dp_loja/br/com/tef/desconto/CalcularDesconto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_loja/out/production/dp_loja/br/com/tef/impostos/CalculadoraDeImpostos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_loja/out/production/dp_loja/br/com/tef/impostos/ICMS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_loja/out/production/dp_loja/br/com/tef/impostos/ISS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_loja/out/production/dp_loja/br/com/tef/impostos/Imposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_loja/out/production/dp_loja/br/com/tef/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_loja/out/production/dp_loja/br/com/tef/mainDescontos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp_loja/out/production/dp_loja/br/com/tef/orcamento/Orcamento.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +34,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/thomas.oliveira@jv01.local/Documentos/Development_Tef/java_alura/dp_loja",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
