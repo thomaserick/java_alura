@@ -1,4 +1,6 @@
-package com.br.tef.clean_architecture.escola;
+package com.br.tef.clean_architecture.escola.indicacao;
+
+import com.br.tef.clean_architecture.escola.aluno.Aluno;
 
 import java.time.LocalDateTime;
 
