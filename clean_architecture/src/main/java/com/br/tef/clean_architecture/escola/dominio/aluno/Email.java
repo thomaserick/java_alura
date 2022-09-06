@@ -1,4 +1,4 @@
-package com.br.tef.clean_architecture.escola.aluno;
+package com.br.tef.clean_architecture.escola.dominio.aluno;
 
 import java.util.Objects;
 
@@ -13,5 +13,9 @@ public class Email {
 
 
         this.endereco = endereco;
+    }
+
+    public String getEndereco() {
+        return endereco;
     }
 }

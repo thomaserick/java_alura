@@ -1,4 +1,4 @@
-package com.br.tef.clean_architecture.escola.aluno;
+package com.br.tef.clean_architecture.escola.dominio.aluno;
 
 public class FabricaDeAluno {
 

@@ -1,4 +1,4 @@
-package com.br.tef.clean_architecture.escola.aluno;
+package com.br.tef.clean_architecture.escola.dominio.aluno;
 
 import java.util.Objects;
 
@@ -11,5 +11,9 @@ public class CPF {
             throw new IllegalArgumentException("E-mail inválido!");
         }
         this.numero = numero;
+    }
+
+    public String getNumero() {
+        return numero;
     }
 }

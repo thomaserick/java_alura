@@ -1,4 +1,4 @@
-package com.br.tef.clean_architecture.escola.aluno;
+package com.br.tef.clean_architecture.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +13,22 @@ public class Aluno {
         this.cpf = cpf;
         this.nome = nome;
         this.email = email;
+    }
+
+    public String getCpf() {
+        return cpf.getNumero();
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email.getEndereco();
+    }
+
+    public List<Telefone> getTelefones() {
+        return telefones;
     }
 
     public void adicionarTelefone(String ddd, String numero) {
