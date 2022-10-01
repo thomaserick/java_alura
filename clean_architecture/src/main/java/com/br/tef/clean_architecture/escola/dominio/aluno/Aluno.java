@@ -9,6 +9,8 @@ public class Aluno {
     private Email email;
     private List<Telefone> telefones = new ArrayList<>();
 
+    private String senha;
+
     public Aluno(CPF cpf, String nome, Email email) {
         this.cpf = cpf;
         this.nome = nome;
@@ -35,4 +37,7 @@ public class Aluno {
         telefones.add(new Telefone(ddd, numero));
     }
 
+    public String getSenha() {
+        return senha;
+    }
 }
