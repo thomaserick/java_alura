@@ -5,7 +5,6 @@
 - Linguagem ubíqua
 - Contexto delimitado
 - Blocos de construção
--
 
 ### Adendo
 
