@@ -11,18 +11,18 @@ import java.util.List;
 
 public class RepositorioAlunosJDBC implements RepositorioDeAlunos {
 
-    private final Connection collection;
+    private final Connection connection;
 
 
     public RepositorioAlunosJDBC(Connection collection) {
-        this.collection = collection;
+        this.connection = collection;
     }
 
     @Override
     public void matricular(Aluno aluno) {
         String sql = "INSERT INTO ALUNO VALUES(?,?,?)";
         try {
-            var ps = collection.prepareStatement(sql);
+            var ps = connection.prepareStatement(sql);
             ps.setString(1, aluno.getCpf());
             ps.setString(2, aluno.getNome());
             ps.setString(3, aluno.getEmail());
@@ -30,7 +30,7 @@ public class RepositorioAlunosJDBC implements RepositorioDeAlunos {
 
 
             sql = "insert INTO TELEFONE VALUES (?,?)";
-            ps = collection.prepareStatement(sql);
+            ps = connection.prepareStatement(sql);
 
             for (Telefone telefone : aluno.getTelefones()) {
                 ps.setString(1, telefone.getDdd());
