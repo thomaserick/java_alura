@@ -17,7 +17,7 @@ public class Aluno {
         this.email = email;
     }
 
-    public String getCpf() {
+    public CPF getCpf() {
         return cpf.getNumero();
     }
 
