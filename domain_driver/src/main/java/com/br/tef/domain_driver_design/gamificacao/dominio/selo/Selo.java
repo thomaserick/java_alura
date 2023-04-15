@@ -1,6 +1,6 @@
 package com.br.tef.domain_driver_design.gamificacao.dominio.selo;
 
-import com.br.tef.domain_driver_design.academico.escola.dominio.aluno.CPF;
+import com.br.tef.domain_driver_design.shared.dominio.CPF;
 
 public class Selo {
     private CPF cpfAluno;

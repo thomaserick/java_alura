@@ -1,4 +1,4 @@
-package com.br.tef.domain_driver_design.academico.escola.dominio.aluno;
+package com.br.tef.domain_driver_design.shared.dominio;
 
 import java.util.Objects;
 

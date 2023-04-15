@@ -1,4 +1,4 @@
-package com.br.tef.domain_driver_design.academico.escola.dominio;
+package com.br.tef.domain_driver_design.shared.dominio.eventos;
 
 public abstract class Ouvinte {
 

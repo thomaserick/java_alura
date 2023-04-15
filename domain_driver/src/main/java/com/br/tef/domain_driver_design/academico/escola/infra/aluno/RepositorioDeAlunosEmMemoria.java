@@ -1,8 +1,8 @@
 package com.br.tef.domain_driver_design.academico.escola.infra.aluno;
 
 import com.br.tef.domain_driver_design.academico.escola.dominio.aluno.Aluno;
-import com.br.tef.domain_driver_design.academico.escola.dominio.aluno.CPF;
 import com.br.tef.domain_driver_design.academico.escola.dominio.aluno.RepositorioDeAlunos;
+import com.br.tef.domain_driver_design.shared.dominio.CPF;
 
 import java.util.ArrayList;
 import java.util.List;
