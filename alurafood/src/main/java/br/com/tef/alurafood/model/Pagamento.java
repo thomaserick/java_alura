@@ -13,6 +13,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -20,6 +21,7 @@ import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 @Entity
 @Table(name = "pagamentos")
@@ -30,7 +32,8 @@ import java.time.LocalDateTime;
 public class Pagamento {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "pag_id_generator")
+    @SequenceGenerator(name = "pag_id_generator", sequenceName = "pag_id_seq", allocationSize = 1)
     private Long id;
 
     @NotNull
@@ -64,9 +67,5 @@ public class Pagamento {
     private Long formaDePagamentoId;
 
     @NotNull
-    private LocalDateTime dataCriacao;
-
-
-
-
+    private ZonedDateTime dataCriacao;
 }

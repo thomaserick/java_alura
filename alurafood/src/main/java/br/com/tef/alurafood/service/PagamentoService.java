@@ -12,6 +12,8 @@ import org.springframework.data.domain.Slice;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityNotFoundException;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 @Service
 public class PagamentoService {
@@ -36,6 +38,7 @@ public class PagamentoService {
     {
         Pagamento pagamento = modelMapper.map(dto,Pagamento.class);
         pagamento.setStatus(Status.CRIADO);
+        pagamento.setDataCriacao(ZonedDateTime.now());
         repository.save(pagamento);
 
         return modelMapper.map(pagamento,PagamentoDTO.class);
