@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: pedidos-ms
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/alurafood-pedidos
+    username: postgres
+    password: totvs@123
+#  flyway:
+#    baselineOnMigrate: true
+
+server:
+  port: 0
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+    defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+
+
+
