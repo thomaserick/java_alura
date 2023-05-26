@@ -5,6 +5,12 @@
   independentes que se comunicam usando APIs bem definidas.
 - Esses serviços pertecem a pequenas equipes autossuficientes
 
+
+
+### Rodar outra instancia
+
+ - ``& "c:\alura-food\pedidos\mvnw.cmd" spring-boot:run -f "c:\alura-food\pedidos\pom.xml"``
+
 ### Adendo
 
 **Helpers**
